@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
-/** reset_to_98 - changes pinter to point to value 98
+/**
+ * reset_to_98 - changes pinter to point to value 98
  *
  * @n: pointer to n
  *
