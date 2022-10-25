@@ -8,16 +8,20 @@
  *
  * Return: void
  */
-void print_array(int *a, int n)
+void puts_half(char *str)
 {
-	int i = 0;
+	int j, i = 0;
 
-	while (i < n)
-	{
-		printf("%d", a[i]);
-		if (i < (n - 1))
-			printf(", ");
+	while (*(str + i))
 		i++;
+	j = i / 2;
+	if (i % 2)
+		 j += 1;
+	while (j < i)
+	{
+		_putchar(*(str + j));
+		j++;
 	}
-	printf("\n");
+	_putchar('\n');
 }
+
