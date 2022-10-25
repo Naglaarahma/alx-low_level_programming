@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_rev - prints a string in stdout in reverse
- * @s: string to point 
+ * @s: string to point
  *
  * Return: void
  */
