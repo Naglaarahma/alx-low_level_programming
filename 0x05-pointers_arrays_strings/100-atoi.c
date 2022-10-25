@@ -23,7 +23,7 @@ int _atoi(char *s)
 j) <= '9'))
 	{
 		n = n * 10 + m * (*(s + j)
-- '0');
+ - '0');
 		j++;
 	}
 	return (n);
