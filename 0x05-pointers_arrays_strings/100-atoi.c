@@ -22,7 +22,12 @@ int _atoi(char *s)
 	while ((*(s + j) >= '0') && (*(s +
 j) <= '9'))
 	{
+<<<<<<< HEAD
 		n = n * 10 + m * (*(s + j) -  '0');
+=======
+		n = n * 10 + m * (*(s + j)
+ - '0');
+>>>>>>> de8f392dfb1a1dbea3733293903eef86d926ab05
 		j++;
 	}
 	return (n);
