@@ -7,7 +7,7 @@
 */
 int _atoi(char *s)
 {
-	int i, j, n, m
+	int i, j, n, m;
 
 	i = n = 0;
 	m = 1;
