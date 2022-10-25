@@ -1,22 +1,23 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * puts2 - prints every other character of a  string to stdout
- * @str: string to print
+ * print_array - prints n elements in the array a
+ * @a: array to print
+ * @n: number of elements to print
  *
  * Return: void
- *
-*/
-void puts2(char *str)
+ */
+void print_array(int *a, int n)
 {
 	int i = 0;
 
-	while (*(str + i))
+	while (i < n)
 	{
-		_putchar(*(str + i));
-		i = i + 2;
+		printf("%d", a[i]);
+		if (i < (n - 1))
+			printf(", ");
+		i++;
 	}
-	_putchar('\n');
-
+	printf("\n");
 }
-
