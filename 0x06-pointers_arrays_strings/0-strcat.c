@@ -7,13 +7,16 @@
  *
  * Return: pointer to memory area s
 */
-char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
+	int i, j;
 
-	for (i = 0; i < n; i++)
+	i = j = 0;
+	while (*(dest + i))
+		i++;
+	while ((*(dest + i) = *(src + j)))
 	{
-		*(s + i) = b;
+		i++;
+		j++;
 	}
-	return (s);
+	return (dest);
 }
