@@ -15,5 +15,6 @@ void puts2(char *str);
 void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
 
 #endif
